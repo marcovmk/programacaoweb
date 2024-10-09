@@ -10,8 +10,8 @@
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
-                        <th>Cargo</th>
-                        <th>Salário</th>
+                        <th>CPF</th>
+                        <th>Telefone</th>
                         <th>Email</th>
                         <th>Ações</th>
                     </tr>
@@ -21,8 +21,8 @@
                         <tr>
                             <td>{{ $cliente->id }}</td>
                             <td>{{ $cliente->nome }}</td>
-                            <td>{{ $cliente->cargo }}</td>
-                            <td>{{ number_format($cliente>salario, 2, ',', '.') }}</td>
+                            <td>{{ $cliente->cpf }}</td>
+                            <td>{{ $cliente-> telefone}}</td>
                             <td>{{ $cliente->email }}</td>
                             <td>
                                 <a href="{{ route('cliente.edit', $cliente->id) }}" class="btn btn-warning">Editar</a>

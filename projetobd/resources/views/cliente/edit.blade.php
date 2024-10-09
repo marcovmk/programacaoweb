@@ -18,7 +18,7 @@
 
             <div class="mb-3">
                 <label for="telefone" class="form-label">Telefone</label>
-                <input type="number" step="0.01" name="telefone" id="telefone" class="form-control" value="{{ $cliente->telefone }}" required>
+                <input type="text" name="telefone" id="telefone" class="form-control" value="{{ $cliente->telefone }}" required>
             </div>
 
             <div class="mb-3">

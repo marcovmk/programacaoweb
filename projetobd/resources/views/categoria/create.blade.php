@@ -13,11 +13,11 @@
         </div>
         <div class="form-group">
             <label for="telefone">Telefone:</label>
-            <input type="number" step="0.01" name="telefone" id="telefone" class="form-control" required>
+            <input type="text" step="0.01" name="telefone" id="telefone" class="form-control" required>
         </div>
         <div class="form-group">
             <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" class="form-control" required>
+            <input type="text" name="email" id="email" class="form-control" required>
         </div>
         <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
